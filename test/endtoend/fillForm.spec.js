@@ -33,7 +33,7 @@ suite(function(env) {
         await driver.findElement(By.id("tool-2")).click()
         await driver.findElement(By.id('continents')).click()
         await driver.findElement(By.xpath('//*[@id="continents"]/option[1]')).click()
-        await driver.findElement(By.id('submit')).click()asdsd
+        await driver.findElement(By.id('submit')).click()
 })
 
 })
